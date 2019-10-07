@@ -2,33 +2,51 @@
     <head>
         <title>Day of the 42</title>
         <style>
-        .colour {
+        .border {
             background-color: rgb(145, 145, 145);
             border-style: solid;
             border-radius: 10px;
             box-shadow: 5px 10px;
         }
-        .day {
+        .container {
+            position: relative;
+        }
+        .top-left {
             position: absolute;
-            left: 0;
-            text-align: left;
+            top: 8px;
+            left: 16px;
+        }
+        .top-right {
+            position: absolute;
+            top: 8px;
+            right: 16px;
+        }
+        .bottom-left {
+            position: absolute;
+            bottom: 40px;
+            left: 16px;
+        }
+        .bottom-right {
+            position: absolute;
+            bottom: 40px;
+            right: 16px;
         }
         </style>
     </head>
     <body style="background-color: rgb(75, 75, 75) ">
-
-        <div class="colour">
-            <div class="day">
-                <img src="./resources/day_of_the_42.png" style="width:400px;height:100px; margin-left:6%">
-            </div>
-            <div class="day">
-                <img src="./resources/loupe.png" style ="width:200px;height:100px; margin-left:480%;">
-            </div>
-            <div>
-                <img src="./resources/reload.png" style = "width:16px;height:16px; margin-left:98.2%; margin-bottom:6%;">
-            </div>
-            <img src="./resources/close.gif" style = "width:15px;height:15px; margin-left:98.2%; margin-top:0%">
+    <div class="container">
+        <p class="border">
+            <img src="./resources/day_of_the_42.png" style="margin-left:1%; width:400px">
+            <img src="./resources/loupe.png" style="margin-right:3%; float:right; width:200px;">
+        </p>
+        <div class="bottom-left">Bottom Left</div>
+        <div class="top-left">Top Left</div>
+        <div class="top-right">Top Right
+            <img src="./resources/reload.png" style="width:18px;">
         </div>
-
+        <div class="bottom-right">Bottom Right
+            <img src="./resources/close.gif" style="width:18px;">
+        </div>
+    </div>
     </body>
 </html>
