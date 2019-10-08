@@ -1,55 +1,65 @@
+<link rel="stylesheet" href="./doft.css">
 <html>
     <head>
         <title>Day of the 42</title>
-        <style>
-        .border {
-            background-color: rgb(145, 145, 145);
-            border-style: solid;
-            border-radius: 10px;
-            box-shadow: 5px 10px;
-        }
-        .container {
-            position: relative;
-        }
-        .top-left {
-            position: absolute;
-            top: 8px;
-            left: 16px;
-        }
-        .top-right {
-            position: absolute;
-            top: 8px;
-            right: 16px;
-        }
-        .bottom-left {
-            position: absolute;
-            bottom: 8px;
-            left: 16px;
-        }
-        .bottom-right {
-            position: absolute;
-            bottom: 8px;
-            right: 16px;
-        }
-        </style>
     </head>
     <body style="background-color: rgb(75, 75, 75) ">
-<!--top-->
-    <div class="container">
-        <p class="border">
-            <img src="./resources/day_of_the_42.png" style="margin-left:1%; width:400px">
-            <img src="./resources/loupe.png" style="margin-right:3%; float:right; width:200px;">
-        </p>
-        <div class="bottom-left">Bottom Left</div>
-        <div class="top-left">Top Left</div>
-        <div class="top-right">Top Right    
-            <a href="http://www.disney.com."><img src="./resources/reload.png" style="width:18px;"></a>
-        </div>
-        <div class="bottom-right">Bottom Right
-            <a href="http://www.relaischateaux.com."><img src="./resources/close.gif" style="width:18px;"></a>
-        </div>
-    </div>
-<!--left-->
 
+        <div class="head">
+            <div class="day">
+                <img src="./resources/day_of_the_42.png" style="width:400px;height:100px; margin-left:1%">
+            </div>
+            <div class="glass">
+                <img src="./resources/loupe.png" style ="width:200px;height:100px;">
+            </div>
+            <div class="reload">
+                <img src="./resources/reload.png" style = "width:16px;height:16px; margin-left:98.2%; margin-bottom:6%;">
+            </div>
+            <div class="cross">
+            <img src="./resources/close.gif" style = "width:15px;height:15px; margin-left:98.2%; margin-top:0%" bottom: 3px;>
+            </div>
+        </div>
+        <br />
+        <div class="body">
+            <div>
+                <img src="./resources/arrow.png" style = "width:75%;height:17%; margin-left:1vw; margin-top:1vw">
+            </div>
+            <div>
+                <img src="./resources/main.png" style = "width:75%;height:17%; margin-left:1vw; margin-top:1vw">
+            </div>
+            <div class=redborder>
+                <img src="./resources/oeil.png" style = "width:75%;height:16%; margin-left:1vw; margin-top:1vw">
+            </div>
+            <div>
+                <img src="./resources/outil.png" style = "width:75%;height:17%; margin-left:1vw; margin-top:1vw">
+            </div>
+            <div>
+                <img src="./resources/chat-icon.png" style = "width:75%;height:20%; margin-left:1vw; margin-top:1vw">
+            </div>
+        </div>
+        <div class="middle">
+            <div>
+                <img src="./resources/cluster.jpg" style = "width:98%;height:98%; margin-left:0.5vw; margin-top:0.5vw;">
+            </div>
+        </div>
+        <div class="body2">
+            <div>
+                <img src="./resources/book.png" style = "width:75%;height:17%; margin-left:1vw; margin-top:1vw">
+            </div>
+            <div>
+                <img src="./resources/towel.png" style = "width:45%;height:8%; margin-left:2.3vw; margin-top:1vw">
+            </div>
+            <div>
+                <img src="./resources/brick.jpg" style = "width:90%;height:17%; margin-left:0.5vw; margin-top:1vw">
+            </div>
+        </div>
+        <div class="promt">
+                <a class="text">Vous <a class="entrez">entrez</a>
+                <a class="text">alors dans une grande piece remplie</a><br>
+                <a class="texta">d'ordinateurs...</a><br>
+                <a class="text">- Bonjour, vous etes nouveau ici ?</a><br>
+                <input class="text">
+                <button class="button">Repondre</button>
+        </div>
     </body>
 </html>

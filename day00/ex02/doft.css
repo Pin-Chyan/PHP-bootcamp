@@ -1,0 +1,98 @@
+.head {
+    width:75%;
+    height: 9%;
+    margin:auto;
+    position:relative;
+    background-color:  rgb(145, 145, 145);
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+}
+.body {
+    width:10%;
+    height: 45%;
+    margin-left:15vw;
+    float: left;
+    position:relative;
+    background-color:  rgb(145, 145, 145);
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+}
+.body2 {
+    width:10%;
+    height: 45%;
+    margin-left:1vw;
+    float: left;
+    position:relative;
+    background-color:  rgb(145, 145, 145);
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+}
+.middle {
+    width:45%;
+    height: 55%;
+    float: left;
+    margin-left:1vw;
+    position:relative;
+    background-color:  rgb(145, 145, 145);
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+}
+.promt {
+    width:33vw;
+    height: 12vw;
+    float: left;
+    top:59vh;
+    left: 12vh;
+    margin-left:1vw;
+    position:absolute;
+    background-color:  greenyellow;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+}
+.day {
+    position:absolute;
+    left:0;
+    bottom: 1px;
+    text-align: left;
+}
+.glass {
+    position:absolute;
+    bottom: -15px;
+    right: 16px;
+}
+.cross {
+    position:absolute;
+    bottom: 1px;
+    right: 16px;
+    text-align: left;
+}
+.text {
+    margin-left:1vw;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1vw;
+}
+.texta {
+    margin-left:1vw;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1vw;
+    text-shadow: 2px 2px 2px red;
+}
+.entrez {
+    font-size:3vw;
+}
+.button {
+    width: 10vw;
+    font-size:1vw;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.reload {
+    position:absolute;
+    bottom: 90px;
+    right: 16px;
+    text-align: left;
+}
