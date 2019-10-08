@@ -1,111 +1,140 @@
-.head {
-    min-width: 1100px;
-    width:75%;
-    height: 9%;
-    margin:auto;
-    position:relative;
-    background-color:  rgb(145, 145, 145);
-    border-style: solid;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px;
-}
 .body {
-    min-width: 150px;
-    width:10%;
-    height: 45%;
-    margin-left:15vw;
-    float: left;
-    position:relative;
-    background-color:  rgb(145, 145, 145);
-    border-style: solid;
+    background-color: rgb(75, 75, 75);
+}
+
+.top {
+    position: relative;
+    width: 1400px;
+    height: 120px;
+    background-color: rgb(145, 145, 145);
+    object-fit: contain;
     border-radius: 10px;
     box-shadow: 5px 5px 5px;
+    margin: auto;
 }
-.body2 {
-    min-width: 150px;
-    width:10%;
-    height: 45%;
-    margin-left:1vw;
-    float: left;
-    position:relative;
-    background-color:  rgb(145, 145, 145);
-    border-style: solid;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px;
+
+.day42 {
+    position: absolute;
+    height: 110px;
+    margin-left: 1%;
+    margin-top: 0.3%;
 }
-.middle {
-    min-width: 150px;
-    width:45%;
-    height: 55%;
-    float: left;
-    margin-left:1vw;
-    position:relative;
-    background-color:  rgb(145, 145, 145);
-    border-style: solid;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px;
+
+.scope {
+    position: absolute;
+    height: 110px;
+    margin-top: 15px;
+    margin-left: 85%;
 }
-.promt {
-    min-width: 150px;
-    width:33vw;
-    height: 12vw;
-    float: left;
-    top:740px;
-    left: 180px;
-    margin-left:1vw;
-    position:absolute;
-    background-color:  greenyellow;
-    border-style: solid;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px;
-}
-.day {
-    position:absolute;
-    left:0;
-    bottom: 1px;
-    text-align: left;
-}
-.glass {
-    position:absolute;
-    bottom: -15px;
-    right: 16px;
-}
-.cross {
-    position:absolute;
-    bottom: 1px;
-    right: 16px;
-    text-align: left;
-}
-.text {
-    margin-left:1vw;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:1vw;
-}
-.texta {
-    margin-left:1vw;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:1vw;
-    text-shadow: 2px 2px 2px red;
-}
-.entrez {
-    font-size:3vw;
-}
-.button {
-    width: 10vw;
-    font-size:1vw;
-    font-family:Arial, Helvetica, sans-serif;
-}
+
 .reload {
-    position:absolute;
-    bottom: 90px;
-    right: 16px;
-    text-align: left;
+    position: absolute;
+    margin-top: 0.5%;
+    margin-left: 98.5%;
+    width: 15px;
 }
-.brick{
+
+.close {
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 98.5%;
+    width: 15px;
+}
+
+.warp {
+    position: relative;
+    width: 1360px;
+    height: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.left {
+    position: absolute;
+    background-color: rgb(145, 145, 145);
+    width: 150px;
+    height: 480px;
+    margin-left: 100px;
+    align-content: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+}
+
+.right {
+    position: absolute;
+    background-color: rgb(145, 145, 145);
+    width: 150px;
+    height: 480px;
+    margin-left: 1100px;
+    align-content: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+}
+
+.mid {
+    position: absolute;
+    background-color: rgb(145, 145, 145);
+    width: 720px;
+    margin-left: 320px;
+    height: 620px;
+    align-content: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+}
+
+.icon {
+    height: 95px;
+}
+
+.brick {
     background-image: url(resources/brick.jpg);
     background-repeat: repeat;
-    width:90%;
-    height:17%;
-    margin-left:0.5vw;
-    margin-top:1vw;
+    height: 95px;
+    width: 85%;
+    margin-left: 7.5%;
+}
+
+.cluster {
+    margin: 10px;
+    height: 600px;
+    width: 700px;
+}
+
+.gblock {
+    position: absolute;
+    background-color:rgb(143, 253, 143);
+    text-align: left;
+    margin-left: 75px;
+    margin-top: 520px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+    width: 450px;
+    height: 150px;
+}
+
+.text {
+    margin-left: 3%;
+}
+
+.text2 {
+    text-shadow: 1px 1px 1px red;
+}
+
+.text3 {
+    margin-left: 0%;
+}
+
+.cap {
+    font-size: 35;
+}
+
+.box {
+    margin-left: 3%;
+    width: 300px;
+}
+
+.btn {
+    width: 100px;
 }
