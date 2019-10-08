@@ -1,3 +1,7 @@
+.body {
+    background-image: url(https://images2.alphacoders.com/104/thumb-1920-1042813.jpg);
+}
+
 .dropbtn {
     background-color: lightskyblue;
     color: black;
@@ -40,5 +44,3 @@
 .dropdown-hover .dropbtn {
     background-color: lightseagreen;
 } 
-
-
